@@ -1,0 +1,40 @@
+{
+    "name": "smart-contracts-skeleton",
+    "version": "1.0.0",
+    "description": "Skeleton for building smart contracts for Ethereum network.",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "npx truffle test",
+        "compile": "npx truffle compile",
+        "coverage": "npx solidity-coverage",
+        "lint": "npx solium -d contracts/",
+        "migrate": "npx truffle migrate"
+    },
+    "keywords": [
+        "ethereum",
+        "smart",
+        "contracts",
+        "solidity",
+        "truffle",
+        "zeppelin",
+        "blockchain"
+    ],
+    "author": "Jiri Simecek <jirka@simecek.org>",
+    "license": "MIT",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-preset-stage-3": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "chai-as-promised": "^7.1.1",
+        "mocha": "^5.0.0",
+        "solidity-coverage": "^0.4.8",
+        "solium": "^1.1.3",
+        "truffle": "^4.0.5",
+        "zeppelin-solidity": "^1.5.0"
+    }
+}
