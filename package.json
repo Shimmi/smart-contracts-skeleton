@@ -1,7 +1,8 @@
 {
     "name": "smart-contracts-skeleton",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Skeleton for building smart contracts for Ethereum network.",
+    "repository": "https://github.com/Shimmi/smart-contracts-skeleton",
     "directories": {
         "test": "test"
     },
