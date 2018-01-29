@@ -19,5 +19,5 @@ contract SkeletonToken is StandardToken {
     /* solium-disable-next-line */
     uint256 public constant decimals = 18;
     /* solium-disable-next-line */
-    uint256 public constant cap = 5000000000 * (10 ** decimals);
+    uint256 public constant cap = 100000000 * (10 ** decimals);
 }
